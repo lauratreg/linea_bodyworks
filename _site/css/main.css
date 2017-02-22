@@ -120,7 +120,7 @@ section         { padding: 10vh 5%; }
 }
 
 
-/*#contact {padding: 3vh;}*/
+#contact {padding: 3vh;}
 
 iframe{
   width:100%;
@@ -181,12 +181,16 @@ a:hover {
   color: rgb(52, 73, 94);
   font-weight: bold;
 }
+.spaceout {
+  letter-spacing: 2.5px;
+}
 .social-nav {
   font-size: 3.0rem;
   color: white;
   margin: 2vh;
-  padding: 1vh;
+  padding: .5vh;
   line-height: 1.25;
+
 }
 .social-nav a:hover{
   color: rgb(52, 73, 94);
