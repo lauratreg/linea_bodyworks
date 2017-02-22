@@ -109,6 +109,10 @@ section         { padding: 10vh 5%; }
   padding: 7px;
   background-color: rgb(52, 73, 94);
 }
+#line {
+  padding: 3px;
+  background-color: #A391B9;
+}
 
 #register {
   background-attachment:
