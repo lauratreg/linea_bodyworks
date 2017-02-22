@@ -20,6 +20,7 @@ Website Colours: List colour hex codes here for reference
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 img {
@@ -122,6 +123,11 @@ section         { padding: 10vh 5%; }
 
 #contact {padding: 3vh;}
 
+p.emailhover:hover  {
+  color:rgb(52, 73, 94)
+
+}
+
 iframe{
   width:100%;
 }
@@ -164,7 +170,7 @@ hr {
 /* ----- HEADER & FOOTER --------------------------- */
 nav a {
     text-decoration: none;
-    padding: 1em;
+    padding: 1rem;
     color: inherit;
     font-family: 'Open Sans', sans-serif;
 }
@@ -180,6 +186,7 @@ a {
 a:hover {
   color: rgb(52, 73, 94);
   font-weight: bold;
+  -webkit-transition: all 0.5s;
 }
 .spaceout {
   letter-spacing: 2.5px;
@@ -187,8 +194,6 @@ a:hover {
 .social-nav {
   font-size: 3.0rem;
   color: white;
-  margin: 2vh;
-  padding: .5vh;
   line-height: 1.25;
 
 }
