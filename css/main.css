@@ -46,7 +46,7 @@ img {
 }
 #background{
   /*background-color: #f5f5f5;*/
-  border: 3px dotted rgba(120,169,194,0.3);
+  border: 3px dotted rgba(52, 73, 94,0.3);
 }
 .no-padding { padding: 0; }
 
@@ -99,34 +99,21 @@ header, footer  { padding: 2vh 5%; }
 section         { padding: 10vh 5%; }
 
 #filler {
-  padding: 7px;
-  background-color: rgb(52, 73, 94);
+  padding: 8px;
+  background-color: #001E4C;
+}
+
+#fillertwo {
+  padding: 3px;
+  background-color: 	#C5B358;
 }
 #line {
-  border: 3px dotted rgba(120,169,194,0.3);
+  border: 3px dotted rgba(0,30,76,0.3);
 }
-
-#register {
-  background-attachment:
-}
-
 
 #contact {padding: 3vh;}
 
-p.emailhover:hover  {
-  color:rgb(52, 73, 94)
 
-}
-
-iframe{
-  width:100%;
-}
-.maps iframe{
-  background-color: rgb(52, 73, 94);
-  pointer-events: none;
-  width:100%;
-  padding: 0;
-}
 
 .col,
 [class*=col-]   { padding: 2%; }
@@ -135,11 +122,11 @@ iframe{
 /* Other universal styles */
 
 .featured{
-  background-color: rgba(120,169,194,0.7);/* featured color */
+  background-color: rgba(0,30,76,0.6);/* featured color */
   color: white;
 }
 .fa.featured {
-  color: #78A9C2; /* featured color */
+  color: rgba(197,179,88,0.5); /* featured color */
   background: none;
 }
 
@@ -165,7 +152,7 @@ nav a {
     font-family: 'Open Sans', sans-serif;
 }
 nav a:hover {
-  color: #78A9C2; /* featured color */
+  color: rgba(197,179,88,0.5);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -206,8 +193,8 @@ a:hover {
   margin: 0.5rem 0;
 }
 .about{
-  width: 400px;
-  height: 4s00px;
+  width: 40vw;
+  height: 40vh;
   border-radius: 50%;
 }
 header {
@@ -244,14 +231,6 @@ footer nav .fa,
   min-height:80vh;
 }
 
-.box-img { /* This can be used for any col or div that you want filled with a background image. */
-  background-color: grey; /* this is a fallback incase the image doesn't load */
-  background-image: url("../images/flower.jpg"); /* if you are adding a unique image to every one you can remove this */
-  background-size: cover;
-  background-position: center;
-  min-height: 20vh;
-}
-
 /* Buttons */
  button, /* button is an element snipcart uses */
 .button,
@@ -275,16 +254,6 @@ footer nav .fa,
 }
 
 
-/* Customising the snipcart pop-up */
-.snip-layout .snip-header,
-.snip-layout .snip-footer {
-  background-color:  #78A9C2; /* featured color */
-}
-.snip-layout .snip-footer__copyright {
-  color: white;
-}
-
-
 blockquote {
   border-left: 2px solid rgb(245,245,245);
   margin-left: 3%;
@@ -301,37 +270,11 @@ ol, ul  { padding-left: 0;
           margin-top: 0; }
 li      { margin-bottom: 0.5rem; }
 
-/* ----- FORMS --------------------------- */
-
-input,
-textarea {
-  border-style: solid;
-  border: 1px solid grey;
-  padding: 0.8em;
-  font-family: 'Open Sans', sans-serif; /* Site Font */
-  font-size: 1em;
-  display: block;
-  width: 100%;
-  margin: 1em auto;
-  vertical-align: top;
-}
-textarea {
-  min-height: 7em;
-}
-input[type="submit"] {
-  width: auto;
-  display: block;
-  background-color: rgb(52, 73, 94); /* featured color */
-}
-
-form [class*=col-] {
-  padding: 1%;
-}
 
 /* ------------ BACKGROUND IMAGES --------------- */
 
 #intro-banner {
-  background-image: url("../images/orchid.jpg");
+  background-image: url("../images/banner.jpg");
   background-position: cover;
   min-height: 50vh;
 }
