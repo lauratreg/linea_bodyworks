@@ -66,16 +66,12 @@ img {
 
 /* Typography */
 body {
-  /*font-family: 'Raleway', sans-serif;*/
   font-family: 'Open Sans', sans-serif;
   color: rgb(60,60,65);
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.1rem;
-  /*font-family: 'Shadows Into Light Two', cursive;*/
-  /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
-  /*font-family: 'Quicksand', sans-serif;*/
   font-family: 'Adamina', serif;
   letter-spacing: 2.5px;
 }
@@ -189,7 +185,17 @@ a:hover {
   font-size: 3.0rem;
   color: white;
   line-height: 1.25;
+}
 
+#copyright span {
+  font-size: 1.0rem;
+  color: rgba(52, 73, 94, 0.4);
+  font-family: 'Open Sans', sans-serif;
+}
+
+#copyright {
+  font-size: 1.0rem;
+  color: rgba(52, 73, 94, 0.4);
 }
 .social-nav a:hover{
   color: rgb(52, 73, 94);
@@ -197,7 +203,7 @@ a:hover {
 #logo {
   max-height: 4.5rem;
   max-width: 15rem;
-  margin: -1.0em 0;
+  margin: 0.5rem 0;
 }
 .about{
   width: 400px;
