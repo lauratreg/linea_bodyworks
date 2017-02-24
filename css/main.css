@@ -20,7 +20,7 @@ Website Colours: List colour hex codes here for reference
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
 }
 
 img {
@@ -47,7 +47,7 @@ img {
 }
 #background{
   /*background-color: #f5f5f5;*/
-  border: 3px dotted rgba(163,145,185,0.3);
+  border: 3px dotted rgba(120,169,194,0.3);
 }
 .no-padding { padding: 0; }
 
@@ -85,11 +85,6 @@ p {
   text-decoration: none;
 }
 
-span{
-font-family: 'Sacramento', cursive;
-color: rgba(255,255,255,.5);
-font-size: 4.0rem;
-}
 
 h1 { font-size: 3.0rem; line-height: 1.2; }
 h2 { font-size: 2.4rem; line-height: 1.25; }
@@ -113,7 +108,7 @@ section         { padding: 10vh 5%; }
   background-color: rgb(52, 73, 94);
 }
 #line {
-  border: 3px dotted rgba(163,145,185,0.3);
+  border: 3px dotted rgba(120,169,194,0.3);
 }
 
 #register {
@@ -145,11 +140,11 @@ iframe{
 /* Other universal styles */
 
 .featured{
-  background-color: rgba(163,145,185,0.7);/* featured color */
+  background-color: rgba(120,169,194,0.7);/* featured color */
   color: white;
 }
 .fa.featured {
-  color: #A391B9; /* featured color */
+  color: #78A9C2; /* featured color */
   background: none;
 }
 
@@ -175,7 +170,7 @@ nav a {
     font-family: 'Open Sans', sans-serif;
 }
 nav a:hover {
-  color: #A391B9; /* featured color */
+  color: #78A9C2; /* featured color */
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -238,7 +233,7 @@ footer nav .fa,
 
 /* ----- MODULAR ELEMENTS --------------------------- */
 .banner {
-  background-color: #A391B9; /* featured-color */
+  background-color: #78A9C2; /* featured-color */
   background-size: cover;
   background-position: center;
   min-height:80vh;
@@ -278,7 +273,7 @@ footer nav .fa,
 /* Customising the snipcart pop-up */
 .snip-layout .snip-header,
 .snip-layout .snip-footer {
-  background-color:  #A391B9; /* featured color */
+  background-color:  #78A9C2; /* featured color */
 }
 .snip-layout .snip-footer__copyright {
   color: white;
