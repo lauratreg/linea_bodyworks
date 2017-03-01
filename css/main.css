@@ -165,6 +165,12 @@ a:hover {
   font-weight: bold;
   -webkit-transition: all 0.5s;
 }
+.links {
+  color: black;
+}
+.links:hover {
+  color: rgba(197,179,88,0.5);
+}
 .spaceout {
   letter-spacing: 2.5px;
 }
