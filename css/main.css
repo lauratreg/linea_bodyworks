@@ -165,11 +165,11 @@ a:hover {
   font-weight: bold;
   -webkit-transition: all 0.5s;
 }
-.links {
+#links a {
   color: black;
 }
-.links:hover {
-  color: rgba(197,179,88,0.5);
+#links:hover a {
+  color: rgba(0,30,76,0.6);
 }
 .spaceout {
   letter-spacing: 2.5px;
@@ -199,9 +199,10 @@ a:hover {
   margin: 0.5rem 0;
 }
 .about{
-  width: 40vw;
-  height: 40vh;
-  border-radius: 50%;
+  max-width: 40vw;
+  max-height: 40vh;
+  border-radius: 40%;
+  display: block;
 }
 header {
   border-bottom: 1px solid rgb(245,245,245);
